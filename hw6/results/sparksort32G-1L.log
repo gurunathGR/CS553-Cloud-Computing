@@ -1,0 +1,11 @@
+there must be at least one record to be validated
+Sun May  3 04:52:45 UTC 2020
+
+real	7m20.942s
+user	0m9.733s
+sys	0m2.383s
+Sun May  3 05:00:06 UTC 2020
+Records: 320000000
+Checksum: 9895c22cc452246
+Duplicate keys: 0
+SUCCESS - all records are in order

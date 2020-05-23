@@ -1,0 +1,40 @@
+
+
+
+virsh list
+
+sudo virsh destroy team9-namenode
+sudo virsh destroy team9-datanode1
+sudo virsh destroy team9-datanode2
+sudo virsh destroy team9-datanode3
+sudo virsh destroy team9-datanode4
+
+sudo virsh undefine team9-namenode --remove-all-storage
+sudo virsh undefine team9-datanode1 --remove-all-storage
+sudo virsh undefine team9-datanode2 --remove-all-storage
+sudo virsh undefine team9-datanode3 --remove-all-storage
+sudo virsh undefine team9-datanode4 --remove-all-storage
+
+sudo virsh -c qemu:///system undefine team9-namenode
+sudo virsh -c qemu:///system undefine team9-datanode1
+sudo virsh -c qemu:///system undefine team9-datanode2
+sudo virsh -c qemu:///system undefine team9-datanode3
+sudo virsh -c qemu:///system undefine team9-datanode4
+
+sudo virsh shutdown team9-namenode
+sudo virsh shutdown team9-datanode1
+sudo virsh shutdown team9-datanode2
+sudo virsh shutdown team9-datanode3
+sudo virsh shutdown team9-datanode4
+
+sudo virsh start team9-namenode
+sudo virsh start team9-datanode1
+sudo virsh start team9-datanode2
+sudo virsh start team9-datanode3
+sudo virsh start team9-datanode4
+
+sudo virsh resume team9-namenode
+sudo virsh resume team9-datanode1
+sudo virsh resume team9-datanode2
+sudo virsh resume team9-datanode3
+sudo virsh resume team9-datanode4

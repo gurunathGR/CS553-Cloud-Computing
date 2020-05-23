@@ -1,0 +1,1007 @@
+First unordered record is record 2
+Records: 160000000
+Checksum: 4c4a5084cc6403c
+ERROR - there are 80008971 unordered records
+Linux 4.15.0-91-generic (team-9-skylake-5) 	04/13/20 	_x86_64_	(48 CPU)
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:04        0     23431    0.00   72.00    0.00    0.00   72.00    27 106461.00      0.00 9124476  425676   0.22 430336.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:04        0     23431         0       720         0    106461         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:05        0     23431    0.00   70.00    0.00    0.00   70.00    27 107311.00      0.00 9124476  854412   0.43 429216.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:05        0     23431         0       700         0    107311         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:06        0     23431    0.00   71.00    0.00    0.00   71.00    27 107827.00      0.00 9124476 1286316   0.65 431336.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:06        0     23431         0       710         0    107827         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:07        0     23431    0.00   73.00    0.00    0.00   73.00    27 108113.00      0.00 9124476 1717692   0.87 432452.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:07        0     23431         0       730         0    108113         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:08        0     23431    0.00   72.00    0.00    0.00   72.00    27 107520.00      0.00 9124476 2149332   1.09 430080.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:08        0     23431         0       720         0    107520         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:09        0     23431    0.00   68.00    0.00    0.00   68.00    27 105745.00      0.00 9124476 2570940   1.31 422980.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:09        0     23431         0       680         0    105745         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:10        0     23431    0.00   65.00    0.00    0.00   65.00    27  99345.00      0.00 9124476 2968524   1.51 397380.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:10        0     23431         0       650         0     99345         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:11        0     23431    0.00   68.00    0.00    0.00   68.00    27 107982.00      0.00 9124476 3401748   1.73 431940.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:11        0     23431         0       680         0    107982         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:12        0     23431    0.00   68.00    0.00    0.00   68.00    27 107139.00      0.00 9124476 3829428   1.95 428544.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:12        0     23431         0       680         0    107139         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:13        0     23431    0.00   69.00    0.00    0.00   69.00    27 107729.00      0.00 9124476 4260540   2.17 430916.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:13        0     23431         0       690         0    107729         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:14        0     23431    0.00   68.00    0.00    0.00   68.00    27 107135.00      0.00 9124476 4689012   2.39 428356.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:14        0     23431         0       680         0    107135         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:15        0     23431    0.00   69.00    0.00    0.00   69.00    27 107364.00      0.00 9124476 5118540   2.60 429636.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:15        0     23431         0       690         0    107364         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:16        0     23431    0.00   68.00    0.00    0.00   68.00    27 107391.00      0.00 9124476 5548332   2.82 429568.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:16        0     23431         0       680         0    107391         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:17        0     23431    0.00   70.00    0.00    0.00   70.00    27 108258.00      0.00 9124476 5981028   3.04 432964.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:17        0     23431         0       700         0    108258         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:18        0     23431    0.00   70.00    0.00    0.00   70.00    27 107853.00      0.00 9124476 6413724   3.26 431172.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:18        0     23431         0       700         0    107853         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:19        0     23431    0.00   70.00    0.00    0.00   70.00    27 107328.00      0.00 9124476 6841932   3.48 429380.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:19        0     23431         0       700         0    107328         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:20        0     23431    0.00   69.00    0.00    0.00   69.00    27 107403.00      0.00 9124476 7272780   3.70 429568.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:20        0     23431         0       690         0    107403         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:21        0     23431    0.00   69.00    0.00    0.00   69.00    29 106622.00      0.00 9124476 7698080   3.92 426656.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:21        0     23431         0       690         0    106622         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:22        0     23431    0.00   69.00    0.00    0.00   69.00    29 106828.00      0.00 9124476 8125492   4.13 426820.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:22        0     23431         0       690         0    106828         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:23        0     23431   17.00   66.00    0.00    0.00   83.00    29 197463.00      0.00 9190012 8376296   4.26 246048.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:23        0     23431       170       660         0    197463         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:24        0     23431   47.00   53.00    0.00    0.00  100.00    29 358448.00      0.00 9190012 8376296   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:24        0     23431       470       530         0    358448         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:25        0     23431   46.00   54.00    0.00    0.00  100.00    29 343716.00      0.00 9190012 8376296   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:25        0     23431       460       540         0    343716         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:26        0     23431   50.00   50.00    0.00    0.00  100.00    29 366820.00      0.00 9190012 8376296   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:26        0     23431       500       500         0    366820         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:27        0     23431   46.00   54.00    0.00    0.00  100.00    29 332114.00      0.00 9190012 8376296   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:27        0     23431       460       540         0    332114         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:28        0     23431   43.00   57.00    0.00    0.00  100.00    29 345902.00      0.00 9190012 8376296   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:28        0     23431       430       570         0    345902         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:29        0     23431   94.00   43.00    0.00    0.00  100.00    29 468867.00      0.00 9321084 8376300   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:29        0     23431       940       430         0    468867         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:30        0     23431  100.00   33.00    0.00    0.00  100.00    29 670988.00      0.00 9648764 8376300   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:30        0     23431      5480       330         0    670988         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:31        0     23431  100.00    4.00    0.00    0.00  100.00    29 100108.00      0.00 9648764 8376300   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:31        0     23431      7930        40         0    100108         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:32        0     23431  100.00    0.00    0.00    0.00  100.00    29      0.00      0.00 9648764 8376300   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:32        0     23431      7470         0         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:33        0     23431  100.00   29.00    0.00    0.00  100.00    29 562062.00      0.00 9648764 8376348   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:33        0     23431      5220       290         0    562062         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:34        0     23431  100.00    7.00    0.00    0.00  100.00    31 153825.00      0.00 9648764 8376348   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:34        0     23431      4040        70         0    153825         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:35        0     23431  100.00   72.00    0.00    0.00  100.00    31 167202.00      0.00 9648764 8376348   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:35        0     23431      6310       720         0    167202         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:36        0     23431  100.00   46.00    0.00    0.00  100.00    31 135547.00      0.00 9648764 8376348   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:36        0     23431      7420       460         0    135547         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:37        0     23431  100.00   93.00    0.00    0.00  100.00    31 230057.00      0.00 9648764 8376356   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:37        0     23431      6890       930         0    230057         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:38        0     23431  100.00   19.00    0.00    0.00  100.00    31 237416.00      0.00 9648764 8376356   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:38        0     23431      7700       190         0    237416         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:39        0     23431  100.00   30.00    0.00    0.00  100.00    31 252955.00      0.00 9648764 8376356   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:39        0     23431      6840       300         0    252955         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:40        0     23431  100.00   13.00    0.00    0.00  100.00    31 149699.00      0.00 9648764 8376356   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:40        0     23431      7720       130         0    149699         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:41        0     23431  100.00   31.00    0.00    0.00  100.00    31  47388.00      0.00 9648764 8376356   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:41        0     23431      7650       310         0     47388         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:42        0     23431  100.00   60.00    0.00    0.00  100.00    31  35184.00      0.00 9648764 8376544   4.26      0.00 140192.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:42        0     23431      7170       600         0     35184         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:43        0     23431    0.00  100.00    0.00    0.00  100.00    31 349591.00      0.00 9648764 8376724   4.26      0.00 1398556.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:43        0     23431         0      2340         0    349591         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:44        0     23431    0.00  100.00    0.00    0.00  100.00    31 337358.00      0.00 9648764 8376972   4.26      0.00 1349356.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:44        0     23431         0      1890         0    337358         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:45        0     23431    0.00  100.00    0.00    0.00  100.00    31 191730.00      0.00 9648764 8376972   4.26      0.00 1648624.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:45        0     23431         0      1820         0    191730         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:46        0     23431    0.00  100.00    0.00    0.00  100.00    31 227613.00      0.00 9648764 8376972   4.26      0.00 1681116.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:46        0     23431         0      1730         0    227613         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:47        0     23431    0.00  100.00    0.00    0.00  100.00    31 362186.00      0.00 9648764 8376972   4.26      0.00 1448744.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:47        0     23431         0      1830         0    362186         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:48        0     23431    0.00   81.00    0.00    0.00   81.00    31 177108.00      0.00 9648764 8376972   4.26 230912.00 708412.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:48        0     23431         0       810         0    177108         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:49        0     23431    1.00   43.00    0.00    0.00   44.00    31      0.00      0.00 9648764 8376972   4.26 432708.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:49        0     23431        10       430         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:50        0     23431    1.00   30.00    0.00    0.00   31.00    31      0.00      0.00 9648764 8376972   4.26 316360.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:50        0     23431        10       300         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:51        0     23431    0.00   12.00    0.00    0.00   12.00    31      0.00      0.00 9648764 8376972   4.26 139080.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:51        0     23431         0       120         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:52        0     23431    0.00   12.00    0.00    0.00   12.00    31      0.00      0.00 9648764 8376972   4.26 140652.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:52        0     23431         0       120         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:53        0     23431    0.00   12.00    0.00    0.00   12.00    31      0.00      0.00 9648764 8376972   4.26 140104.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:53        0     23431         0       120         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:54        0     23431    1.00   12.00    0.00    0.00   13.00     0      6.00      0.00 9648764 8376972   4.26 139628.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:54        0     23431        10       120         0         6         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:55        0     23431    0.00   13.00    0.00    0.00   13.00     2     10.00      0.00 9648764 8376972   4.26 138604.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:55        0     23431         0       130         0        10         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:56        0     23431    1.00   13.00    0.00    0.00   14.00     2      2.00      0.00 9648764 8376972   4.26 141348.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:56        0     23431        10       130         0         2         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:57        0     23431    0.00   11.00    0.00    0.00   11.00     2      0.00      0.00 9648764 8376972   4.26 135752.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:57        0     23431         0       110         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:58        0     23431    0.00   13.00    0.00    0.00   13.00     4      6.00      0.00 9648764 8376972   4.26 141896.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:58        0     23431         0       130         0         6         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:02:59        0     23431    1.00   14.00    0.00    0.00   15.00     4      2.00      0.00 9648764 8376972   4.26 140396.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:02:59        0     23431        10       140         0         2         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:00        0     23431    0.00   15.00    0.00    0.00   15.00     4      0.00      0.00 9648764 8376972   4.26 143396.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:00        0     23431         0       150         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:01        0     23431    0.00   12.00    0.00    0.00   12.00     4      0.00      0.00 9648764 8376972   4.26 142956.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:01        0     23431         0       120         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:02        0     23431    0.00   12.00    0.00    0.00   12.00     4    259.00      0.00 9648764 8376972   4.26 137836.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:02        0     23431         0       120         0       259         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:03        0     23431    1.00   13.00    0.00    0.00   14.00     4    256.00      0.00 9648764 8376972   4.26 144456.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:03        0     23431        10       130         0       256         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:04        0     23431    2.00   11.00    0.00    0.00   13.00     4      0.00      0.00 9648764 8376972   4.26 142664.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:04        0     23431        20       110         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:05        0     23431    1.00   12.00    0.00    0.00   13.00     4    256.00      0.00 9648764 8376972   4.26 143432.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:05        0     23431        10       120         0       256         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:06        0     23431    0.00   12.00    0.00    0.00   12.00     4    256.00      0.00 9648764 8376972   4.26 143504.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:06        0     23431         0       120         0       256         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:07        0     23431    1.00   11.00    0.00    0.00   12.00     4      0.00      0.00 9648764 8376972   4.26 144676.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:07        0     23431        10       110         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:08        0     23431    0.00   13.00    0.00    0.00   13.00     4    512.00      0.00 9648764 8376972   4.26 142956.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:08        0     23431         0       130         0       512         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:09        0     23431    0.00   12.00    0.00    0.00   12.00     4   1409.00      0.00 9648764 8376972   4.26 142920.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:09        0     23431         0       120         0      1409         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:10        0     23431    1.00   17.00    0.00    0.00   18.00     6  21442.00      0.00 9648764 8376972   4.26 144456.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:10        0     23431        10       170         0     21442         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:11        0     23431    1.00   18.00    0.00    0.00   19.00     6  28660.00      0.00 9648764 8376972   4.26 142444.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:11        0     23431        10       180         0     28660         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:12        0     23431    1.00   17.00    0.00    0.00   18.00     8  26890.00      0.00 9648764 8376972   4.26 144164.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:12        0     23431        10       170         0     26890         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:13        0     23431    1.00   17.00    0.00    0.00   18.00     8  31755.00      0.00 9648764 8376972   4.26 137288.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:13        0     23431        10       170         0     31755         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:14        0     23431    2.00   14.00    0.00    0.00   16.00     8  19159.00      0.00 9648764 8376972   4.26 139116.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:14        0     23431        20       140         0     19159         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:15        0     23431    2.00   18.00    0.00    0.00   20.00     8  35987.00      0.00 9648764 8376972   4.26 143944.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:15        0     23431        20       180         0     35987         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:16        0     23431    1.00   19.00    0.00    0.00   20.00     8  36231.00      0.00 9648764 8376972   4.26 144968.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:16        0     23431        10       190         0     36231         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:17        0     23431    1.00   18.00    0.00    0.00   19.00     8  25627.00      0.00 9648764 8376972   4.26 144968.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:17        0     23431        10       180         0     25627         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:18        0     23431    0.00   13.00    0.00    0.00   13.00     8   9488.00      0.00 9648764 8376972   4.26 144200.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:18        0     23431         0       130         0      9488         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:19        0     23431    1.00   47.00    0.00    0.00   48.00    10  75884.00      0.00 9648764 8376972   4.26 342268.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:19        0     23431        10       470         0     75884         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:20        0     23431    2.00   61.00    0.00    0.00   63.00    12  94891.00      0.00 9648764 8376972   4.26 429088.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:20        0     23431        20       610         0     94891         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:21        0     23431    0.00   57.00    0.00    0.00   57.00    12  73024.00      0.00 9648764 8376972   4.26 428760.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:21        0     23431         0       570         0     73024         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:22        0     23431    0.00   54.00    0.00    0.00   54.00    12  65249.00      0.00 9648764 8376972   4.26 424920.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:22        0     23431         0       540         0     65249         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:23        0     23431    0.00   58.00    0.00    0.00   58.00    12  71424.00      0.00 9648764 8376972   4.26 432124.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:23        0     23431         0       580         0     71424         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:24        0     23431   28.00   48.00    0.00    0.00   76.00    12 280448.00      0.00 9648764 8376972   4.26 240708.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:24        0     23431       280       480         0    280448         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:25        0     23431   74.00   26.00    0.00    0.00  100.00    12 545544.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:25        0     23431       740       260         0    545544         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:26        0     23431   70.00   30.00    0.00    0.00  100.00    12 607928.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:26        0     23431       700       300         0    607928         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:27        0     23431  100.00   19.00    0.00    0.00  100.00    12 389411.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:27        0     23431      1150       190         0    389411         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:28        0     23431  100.00    0.00    0.00    0.00  100.00    12   1775.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:28        0     23431      7310         0         0      1775         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:29        0     23431  100.00    3.00    0.00    0.00  100.00    12   9068.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:29        0     23431      5710        30         0      9068         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:30        0     23431  100.00    1.00    0.00    0.00  100.00    12  21767.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:30        0     23431      6390        10         0     21767         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:31        0     23431  100.00    0.00    0.00    0.00  100.00    12   1735.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:31        0     23431      7980         0         0      1735         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:32        0     23431  100.00   10.00    0.00    0.00  100.00    12  92251.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:32        0     23431      7880       100         0     92251         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:33        0     23431  100.00    2.00    0.00    0.00  100.00    12  17767.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:33        0     23431      7950        20         0     17767         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:34        0     23431  100.00    3.00    0.00    0.00  100.00    12  20659.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:34        0     23431      7930        30         0     20659         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:35        0     23431  100.00    3.00    0.00    0.00  100.00    12  13783.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:35        0     23431      7920        30         0     13783         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:36        0     23431  100.00    2.00    0.00    0.00  100.00    12      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:36        0     23431      7230        20         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:37        0     23431  100.00   43.00    0.00    0.00  100.00    12   6446.00      0.00 9648764 8376972   4.26      0.00  88180.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:37        0     23431      7250       430         0      6446         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:38        0     23431    0.00  100.00    0.00    0.00  100.00    12 261968.00      0.00 9648764 8376972   4.26      0.00 1595768.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:38        0     23431         0      2650         0    261968         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:39        0     23431    0.00  100.00    0.00    1.00  100.00    14 356882.00      0.00 9648764 8376972   4.26      0.00 1525320.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:39        0     23431         0      1710         0    356882         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:40        0     23431    0.00  100.00    0.00    0.00  100.00    14 424536.00      0.00 9648764 8376972   4.26      0.00 1731800.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:40        0     23431         0      1760         0    424536         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:41        0     23431    0.00  100.00    0.00    0.00  100.00    14 153128.00      0.00 9648764 8376972   4.26      0.00 1876204.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:41        0     23431         0      1770         0    153128         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:42        0     23431   18.00  100.00    0.00    0.00  100.00    14 724317.00      0.00 9648764 8376972   4.26      0.00 432728.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:42        0     23431       180      4670         0    724317         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:43        0     23431  100.00    2.00    0.00    0.00  100.00    14  30831.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:43        0     23431      1770        20         0     30831         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:44        0     23431  100.00    2.00    0.00    0.00  100.00    14      4.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:44        0     23431      3050        20         0         4         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:45        0     23431  100.00    0.00    0.00    0.00  100.00    14      1.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:45        0     23431      4290         0         0         1         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:46        0     23431  100.00    0.00    0.00    0.00  100.00    14      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:46        0     23431      7760         0         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:47        0     23431  100.00    1.00    0.00    0.00  100.00    14      1.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:47        0     23431      7940        10         0         1         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:48        0     23431  100.00    2.00    0.00    0.00  100.00    14      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:48        0     23431      7600        20         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:49        0     23431  100.00    1.00    0.00    0.00  100.00    14      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:49        0     23431      3280        10         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:50        0     23431  100.00    2.00    0.00    0.00  100.00    14      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:50        0     23431      7860        20         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:51        0     23431  100.00    0.00    0.00    0.00  100.00    14      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:51        0     23431      7940         0         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:52        0     23431  100.00    2.00    0.00    0.00  100.00    14      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:52        0     23431      7940        20         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:53        0     23431  100.00    0.00    0.00    0.00  100.00     4      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:53        0     23431      7850         0         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:54        0     23431  100.00    3.00    0.00    0.00  100.00     4      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:54        0     23431      7920        30         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:55        0     23431  100.00   85.00    0.00    0.00  100.00     4  35678.00      0.00 9648764 8376972   4.26      0.00 140616.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:55        0     23431      7100       850         0     35678         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:56        0     23431    0.00  100.00    0.00    0.00  100.00     4 243678.22      0.00 9648764 8376972   4.26      0.00 665231.68      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:56        0     23431         0      2600         0    246115         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:57        0     23431    0.00  100.00    0.00    0.00  100.00     4 385659.00      0.00 9648764 8376972   4.26      0.00 605512.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:57        0     23431         0      1730         0    385659         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:58        0     23431    0.00  100.00    0.00    0.00  100.00     4 339984.00      0.00 9648764 8376972   4.26      0.00 797452.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:58        0     23431         0      1790         0    339984         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:03:59        0     23431    0.00  100.00    0.00    0.00  100.00     4 385194.00      0.00 9648764 8376972   4.26      0.00 790752.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:03:59        0     23431         0      1920         0    385194         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:00        0     23431    0.00  100.00    0.00    0.00  100.00     4 473378.00      0.00 9648764 8376972   4.26      0.00 1081008.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:00        0     23431         0      1920         0    473378         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:01        0     23431   25.00  100.00    0.00    1.00  100.00     4 489952.00      0.00 9648764 8376972   4.26      0.00 412776.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:01        0     23431       250      2110         0    489952         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:02        0     23431  100.00    0.00    0.00    0.00  100.00     6     29.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:02        0     23431      4940         0         0        29         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:03        0     23431  100.00    0.00    0.00    0.00  100.00    10      1.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:03        0     23431      6990         0         0         1         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:04        0     23431  100.00    0.00    0.00    0.00  100.00    10      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:04        0     23431      7990         0         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:05        0     23431  100.00    1.00    0.00    0.00  100.00    10      1.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:05        0     23431      7950        10         0         1         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:06        0     23431  100.00  100.00    0.00    0.00  100.00    10  19563.00      0.00 9648764 8376972   4.26      0.00 852136.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:06        0     23431      1930      3590         0     19563         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:07        0     23431    0.00  100.00    0.00    0.00  100.00    10 242583.00      0.00 9648764 8376972   4.26      0.00 772864.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:07        0     23431         0      4150         0    242583         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:08        0     23431   89.00   11.00    0.00    0.00  100.00    10 131072.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:08        0     23431       890       110         0    131072         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:09        0     23431  100.00   16.00    0.00    0.00  100.00    10  65536.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:09        0     23431      4800       160         0     65536         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:10        0     23431  100.00    0.00    0.00    0.00  100.00    10      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:10        0     23431      3630         0         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:11        0     23431  100.00    0.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:11        0     23431      1930         0         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:12        0     23431  100.00    1.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:12        0     23431      7680        10         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:13        0     23431  100.00    1.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:13        0     23431      4770        10         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:14        0     23431  100.00    1.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:14        0     23431      7900        10         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:15        0     23431  100.00    2.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:15        0     23431      7930        20         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:16        0     23431  100.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 277808.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:16        0     23431      6060      1370         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:17        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 1042016.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:17        0     23431         0      1970         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:18        0     23431    0.00  100.00    0.00    0.00  100.00    13 316342.00      0.00 9648764 8376972   4.26      0.00 930176.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:18        0     23431         0      1890         0    316342         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:19        0     23431    0.00  100.00    0.00    0.00  100.00    13  22227.00      0.00 9648764 8376972   4.26      0.00 952496.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:19        0     23431         0      1860         0     22227         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:20        0     23431    0.00  100.00    0.00    0.00  100.00    13 109375.00      0.00 9648764 8376972   4.26      0.00 1117228.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:20        0     23431         0      1680         0    109375         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:21        0     23431   49.00  100.00    0.00    0.00  100.00    13 612863.00      0.00 9648764 8376972   4.26      0.00 180276.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:21        0     23431       490      3240         0    612863         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:22        0     23431  100.00    0.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:22        0     23431      1000         0         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:23        0     23431  100.00    0.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00      0.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:23        0     23431      1620         0         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:24        0     23431  100.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 187500.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:24        0     23431      2050      1120         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:25        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 1170720.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:25        0     23431         0      2760         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:26        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 1141780.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:26        0     23431         0      1810         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:27        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 1195564.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:27        0     23431         0      1890         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:28        0     23431    0.00  100.00    0.00    0.00  100.00    13      9.00      0.00 9648764 8376972   4.26      0.00 429436.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:28        0     23431         0      1410         0         9         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:29        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 370116.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:29        0     23431         0      1560         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:30        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 317384.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:30        0     23431         0      1550         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:31        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 312500.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:31        0     23431         0      1530         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:32        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 375000.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:32        0     23431         0      1520         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:33        0     23431    0.00  100.00    0.00    1.00  100.00    13  31276.00      0.00 9648764 8376972   4.26      0.00 312500.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:33        0     23431         0      1570         0     31276         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:34        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 312500.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:34        0     23431         0      1530         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:35        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 375000.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:35        0     23431         0      1570         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:36        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 312500.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:36        0     23431         0      1550         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:37        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 312500.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:37        0     23431         0      1530         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:38        0     23431    0.00  100.00    0.00    0.00  100.00    13      0.00      0.00 9648764 8376972   4.26      0.00 375000.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:38        0     23431         0      1540         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:39        0     23431    0.00  100.00    0.00    0.00  100.00     0      1.00      0.00 9648764 8376972   4.26      0.00 312500.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:39        0     23431         0      1550         0         1         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:40        0     23431    0.00  100.00    0.00    0.00  100.00     0      0.00      0.00 9648764 8376972   4.26      0.00 375000.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:40        0     23431         0      1560         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:41        0     23431    0.00  100.00    0.00    0.00  100.00     2      1.00      0.00 9648764 8376972   4.26      0.00 312500.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:41        0     23431         0      1590         0         1         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:42        0     23431    0.00  100.00    0.00    0.00  100.00     2      0.00      0.00 9648764 8376972   4.26      0.00 375000.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:42        0     23431         0      1550         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:43        0     23431    0.00  100.00    0.00    0.00  100.00     2      0.00      0.00 9648764 8376972   4.26      0.00 375000.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:43        0     23431         0      1580         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:44        0     23431    0.00  100.00    0.00    0.00  100.00     2      1.00      0.00 9648764 8376972   4.26      0.00 312500.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:44        0     23431         0      1590         0         1         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:45        0     23431    0.00  100.00    0.00    0.00  100.00     2      0.00      0.00 9648764 8376972   4.26      0.00 375000.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:45        0     23431         0      1580         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:46        0     23431    0.00  100.00    0.00    0.00  100.00     2  31275.00      0.00 9648764 8376972   4.26      0.00 375000.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:46        0     23431         0      1520         0     31275         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:47        0     23431    0.00  100.00    0.00    1.00  100.00     2      0.00      0.00 9648764 8376972   4.26      0.00 375000.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:47        0     23431         0      1580         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+22:04:48        0     23431    0.00  100.00    0.00    0.00  100.00     2      0.00      0.00 9648764 8376972   4.26      0.00 375000.00      0.00       0  mysort
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+22:04:48        0     23431         0      1610         0         0         0  mysort
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+
+# Time        UID       PID    usr-ms system-ms  guest-ms minflt-nr majflt-nr  Command
+
+real	2m46.019s
+user	5m31.257s
+sys	2m7.424s
+Records: 160000000
+Checksum: 4c4a5084cc6403c
+Duplicate keys: 0
+SUCCESS - all records are in order

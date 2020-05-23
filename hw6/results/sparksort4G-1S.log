@@ -1,0 +1,14 @@
+Records: 40000000
+Checksum: 1312774ebf75c93
+Duplicate keys: 0
+SUCCESS - all records are in order
+Sun May  3 08:16:45 UTC 2020
+
+real	2m35.140s
+user	0m9.627s
+sys	0m2.045s
+Sun May  3 08:19:20 UTC 2020
+Records: 40000000
+Checksum: 1312774ebf75c93
+Duplicate keys: 0
+SUCCESS - all records are in order

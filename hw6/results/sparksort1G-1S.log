@@ -1,0 +1,14 @@
+Records: 10000000
+Checksum: 4c48a881c779d5
+Duplicate keys: 0
+SUCCESS - all records are in order
+Sun May  3 08:10:09 UTC 2020
+
+real	1m16.912s
+user	0m9.153s
+sys	0m1.798s
+Sun May  3 08:11:26 UTC 2020
+Records: 10000000
+Checksum: 4c48a881c779d5
+Duplicate keys: 0
+SUCCESS - all records are in order

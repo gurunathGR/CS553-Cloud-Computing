@@ -1,0 +1,14 @@
+Records: 160000000
+Checksum: 4c4a5084cc6403c
+Duplicate keys: 0
+SUCCESS - all records are in order
+Sun May  3 03:31:08 UTC 2020
+
+real	4m2.471s
+user	0m9.884s
+sys	0m2.281s
+Sun May  3 03:35:12 UTC 2020
+Records: 160000000
+Checksum: 4c4a5084cc6403c
+Duplicate keys: 0
+SUCCESS - all records are in order

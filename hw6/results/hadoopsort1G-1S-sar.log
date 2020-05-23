@@ -1,0 +1,623 @@
+Linux 4.15.0-96-generic (team-9-ins-6) 	05/03/20 	_x86_64_	(48 CPU)
+
+08:08:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:41        all      0.06      0.00      0.02      0.00      0.00     99.92
+
+08:08:40          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:41         0.00      0.00      0.00      0.00      0.00
+
+08:08:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:41    174901756 185439056  21700168     11.04     52440  11383164  26237956     13.35  10078996   9782148      1060
+
+08:08:41        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:42        all      0.13      0.00      0.06      0.00      0.00     99.81
+
+08:08:41          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:42         7.00      0.00      7.00      0.00     64.00
+
+08:08:41    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:42    174901756 185439056  21700168     11.04     52440  11383164  26237956     13.35  10079044   9782148      1044
+
+08:08:42        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:43        all      0.10      0.00      0.04      0.00      0.00     99.85
+
+08:08:42          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:43         0.00      0.00      0.00      0.00      0.00
+
+08:08:42    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:43    174901360 185438660  21700564     11.04     52440  11383164  26237956     13.35  10079748   9782148      1044
+
+08:08:43        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:44        all      0.50      0.00      0.06      0.00      0.00     99.44
+
+08:08:43          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:44        18.00      4.00     14.00     32.00    320.00
+
+08:08:43    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:44    174901344 185438644  21700580     11.04     52480  11383124  26237956     13.35  10079764   9782148      1044
+
+08:08:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:45        all      4.99      0.00      0.27      0.00      0.00     94.74
+
+08:08:44          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:45         0.00      0.00      0.00      0.00      0.00
+
+08:08:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:45    174901644 185439272  21700280     11.04     52480  11383440  26226356     13.34  10079464   9782428      1232
+
+08:08:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:46        all      2.13      0.00      0.10      0.00      0.00     97.77
+
+08:08:45          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:46        11.00      0.00     11.00      0.00    256.00
+
+08:08:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:46    174901892 185439540  21700032     11.04     52484  11383440  26226356     13.34  10079160   9782428      1208
+
+08:08:46        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:47        all      4.76      0.00      0.13      0.00      0.00     95.12
+
+08:08:46          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:47       219.00      0.00    219.00      0.00   2168.00
+
+08:08:46    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:47    174901700 185439348  21700224     11.04     52484  11383472  26226356     13.34  10079160   9782428       736
+
+08:08:47        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:48        all      1.82      0.00      0.38      0.02      0.00     97.79
+
+08:08:47          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:48        15.00      0.00     15.00      0.00    664.00
+
+08:08:47    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:48    174902288 185440012  21699636     11.04     52512  11383488  26226356     13.34  10079676   9781992       184
+
+08:08:48        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:49        all      4.68      0.00      0.90      0.00      0.00     94.42
+
+08:08:48          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:49         1.00      1.00      0.00      8.00      0.00
+
+08:08:48    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:49    174901768 185439496  21700156     11.04     52512  11383516  26226356     13.34  10081524   9780984       192
+
+08:08:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:50        all      3.99      0.00      0.19      0.00      0.00     95.82
+
+08:08:49          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:50        13.00      3.00     10.00     80.00     48.00
+
+08:08:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:50    174901176 185438904  21700748     11.04     52512  11383556  26226356     13.34  10082040   9780864       200
+
+08:08:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:51        all      2.61      0.00      0.27      0.00      0.00     97.12
+
+08:08:50          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:51        42.00      0.00     42.00      0.00    168.00
+
+08:08:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:51    174901292 185439040  21700632     11.04     52512  11383600  26226356     13.34  10082156   9780828       496
+
+08:08:51        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:52        all      2.98      0.00      0.25      0.00      0.00     96.77
+
+08:08:51          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:52        35.00      0.00     35.00      0.00    296.00
+
+08:08:51    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:52    174901416 185439164  21700508     11.04     52512  11383600  26226356     13.34  10082276   9780828       448
+
+08:08:52        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:53        all      3.48      0.00      0.29      0.02      0.00     96.21
+
+08:08:52          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:53        64.00      0.00     64.00      0.00   1104.00
+
+08:08:52    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:53    174834452 185372200  21767472     11.07     52516  11383596  26226356     13.34  10150040   9780828       552
+
+08:08:53        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:54        all      3.55      0.00      0.27      0.00      0.00     96.18
+
+08:08:53          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:54         6.00      0.00      6.00      0.00    112.00
+
+08:08:53    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:54    174784972 185322776  21816952     11.10     52528  11383604  26226356     13.34  10199300   9780864        72
+
+08:08:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:55        all      5.45      0.00      0.27      0.00      0.00     94.28
+
+08:08:54          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:55         0.00      0.00      0.00      0.00      0.00
+
+08:08:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:55    174685480 185223340  21916444     11.15     52528  11383604  26262532     13.36  10296552   9780852       576
+
+08:08:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:56        all      4.89      0.00      0.23      0.00      0.00     94.89
+
+08:08:55          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:56         8.00      0.00      8.00      0.00    360.00
+
+08:08:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:56    174526656 185064544  22075268     11.23     52528  11383608  26279268     13.37  10455360   9780864       580
+
+08:08:56        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:57        all      5.74      0.00      0.19      0.00      0.00     94.07
+
+08:08:56          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:57         9.00      0.00      9.00      0.00     72.00
+
+08:08:56    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:57    174478036 185015912  22123888     11.25     52528  11383612  26279268     13.37  10504520   9780884       584
+
+08:08:57        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:58        all      2.10      0.00      0.17      0.00      0.00     97.73
+
+08:08:57          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:58         8.00      0.00      8.00      0.00     40.00
+
+08:08:57    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:58    174455500 184993408  22146424     11.26     52528  11383612  26279268     13.37  10527052   9780916       556
+
+08:08:58        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:08:59        all      0.52      0.00      0.15      0.00      0.00     99.33
+
+08:08:58          tps      rtps      wtps   bread/s   bwrtn/s
+08:08:59         4.00      0.00      4.00      0.00     32.00
+
+08:08:58    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:08:59    174453768 184991676  22148156     11.27     52528  11383612  26279268     13.37  10529100   9780916       556
+
+08:08:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:00        all      6.18      0.00      0.36      0.00      0.00     93.46
+
+08:08:59          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:00        14.00      0.00     14.00      0.00    288.00
+
+08:08:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:00    174274832 184812752  22327092     11.36     52560  11383624  26279268     13.37  10707276   9780928       580
+
+08:09:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:01        all      8.19      0.00      0.31      0.00      0.00     91.50
+
+08:09:00          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:01         4.00      0.00      4.00      0.00    520.00
+
+08:09:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:01    174092340 184630260  22509584     11.45     52560  11383624  26279268     13.37  10889548   9780928       580
+
+08:09:01        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:02        all      8.23      0.00      0.23      0.00      0.00     91.54
+
+08:09:01          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:02         0.00      0.00      0.00      0.00      0.00
+
+08:09:01    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:02    173979504 184517424  22622420     11.51     52560  11383624  26279268     13.37  11002188   9780928       580
+
+08:09:02        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:03        all      8.44      0.00      0.17      0.00      0.00     91.40
+
+08:09:02          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:03         0.00      0.00      0.00      0.00      0.00
+
+08:09:02    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:03    173739376 184277296  22862548     11.63     52560  11383624  26279268     13.37  11241852   9780928       580
+
+08:09:03        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:04        all      7.98      0.00      0.67      0.00      0.00     91.35
+
+08:09:03          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:04         0.00      0.00      0.00      0.00      0.00
+
+08:09:03    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:04    172872872 183410792  23729052     12.07     52560  11383624  26279268     13.37  12106108   9780928       580
+
+08:09:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:05        all      8.13      0.00      0.40      0.00      0.00     91.48
+
+08:09:04          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:05         0.00      0.00      0.00      0.00      0.00
+
+08:09:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:05    172382376 182920296  24219548     12.32     52560  11383628  26279268     13.37  12595576   9780928       584
+
+08:09:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:06        all      8.55      0.00      0.17      0.00      0.00     91.29
+
+08:09:05          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:06         6.00      0.00      6.00      0.00    240.00
+
+08:09:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:06    172379484 182917460  24222440     12.32     52568  11383628  26265872     13.36  12596588   9780924       740
+
+08:09:06        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:07        all      8.25      0.00      0.44      0.00      0.00     91.31
+
+08:09:06          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:07         0.00      0.00      0.00      0.00      0.00
+
+08:09:06    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:07    171874512 182425500  24727412     12.58     52568  11397100  26265872     13.36  13089140   9793872     14124
+
+08:09:07        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:08        all      7.03      0.00      4.15      0.00      0.00     88.82
+
+08:09:07          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:08        12.00      0.00     12.00      0.00    160.00
+
+08:09:07    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:08    171457424 182294468  25144500     12.79     52580  11681156  26403512     13.43  13220444  10076416    297972
+
+08:09:08        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:09        all      7.20      0.00      0.21      0.00      0.00     92.59
+
+08:09:08          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:09        31.00      0.00     31.00      0.00    488.00
+
+08:09:08    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:09    171456060 182294736  25145864     12.79     52612  11680792  26403512     13.43  13220484  10077488    298612
+
+08:09:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:10        all      8.33      0.00      0.19      0.00      0.00     91.48
+
+08:09:09          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:10         3.00      0.00      3.00      0.00     80.00
+
+08:09:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:10    171455904 182294584  25146020     12.79     52620  11680796  26403512     13.43  13220484  10077492    298612
+
+08:09:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:11        all      8.49      0.00      0.29      1.09      0.00     90.13
+
+08:09:10          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:11      1271.00      0.00   1271.00      0.00 596440.00
+
+08:09:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:11    171456044 182294724  25145880     12.79     52624  11680796  26403512     13.43  13220484  10077492      1068
+
+08:09:11        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:12        all      8.43      0.00      0.23      0.00      0.00     91.34
+
+08:09:11          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:12         1.00      0.00      1.00      0.00     40.00
+
+08:09:11    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:12    171454104 182292800  25147820     12.79     52624  11680800  26403512     13.43  13222532  10077508       776
+
+08:09:12        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:13        all      8.35      0.00      2.88      0.00      0.00     88.76
+
+08:09:12          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:13         0.00      0.00      0.00      0.00      0.00
+
+08:09:12    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:13    171213224 182287344  25388700     12.91     52624  11916680  26403512     13.43  13222580  10311920    242120
+
+08:09:13        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:14        all      8.52      0.00      0.23      0.00      0.00     91.25
+
+08:09:13          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:14         0.00      0.00      0.00      0.00      0.00
+
+08:09:13    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:14    171207084 182287936  25394840     12.92     52624  11919680  26403512     13.43  13224652  10316260    247832
+
+08:09:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:15        all      8.48      0.00      0.15      0.00      0.00     91.38
+
+08:09:14          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:15         0.00      0.00      0.00      0.00      0.00
+
+08:09:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:15    171199108 182279992  25402816     12.92     52624  11919680  26403512     13.43  13232844  10316292    247832
+
+08:09:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:16        all      8.08      0.00      0.58      0.75      0.00     90.58
+
+08:09:15          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:16       971.00      0.00    971.00      0.00 494488.00
+
+08:09:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:16    170977252 182058428  25624672     13.03     52624  11919684  26417680     13.44  13449516  10316580      1444
+
+08:09:16        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:17        all      6.23      0.00      0.17      0.00      0.00     93.60
+
+08:09:16          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:17        12.00      0.00     12.00      0.00    264.00
+
+08:09:16    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:17    170973788 182055072  25628136     13.04     52648  11919760  26417680     13.44  13454036  10316668      1000
+
+08:09:17        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:18        all      6.12      0.00      0.15      0.00      0.00     93.73
+
+08:09:17          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:18        15.00      0.00     15.00      0.00    248.00
+
+08:09:17    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:18    170973796 182055172  25628128     13.04     52676  11919772  26401504     13.43  13454016  10316760      1000
+
+08:09:18        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:19        all      8.33      0.00      0.21      0.00      0.00     91.46
+
+08:09:18          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:19         6.00      0.00      6.00      0.00    112.00
+
+08:09:18    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:19    170974040 182055516  25627884     13.04     52692  11919844  26380936     13.42  13453968  10316856      1064
+
+08:09:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:20        all      8.41      0.00      0.10      0.00      0.00     91.48
+
+08:09:19          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:20         3.00      0.00      3.00      0.00     40.00
+
+08:09:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:20    170974028 182055504  25627896     13.04     52696  11919848  26380936     13.42  13453968  10316856      1072
+
+08:09:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:21        all      8.42      0.00      0.21      0.02      0.00     91.35
+
+08:09:20          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:21        13.00      0.00     13.00      0.00   1024.00
+
+08:09:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:21    170973948 182055484  25627976     13.04     52704  11919852  26380936     13.42  13454020  10316864       936
+
+08:09:21        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:22        all      8.22      0.00      2.96      0.00      0.00     88.82
+
+08:09:21          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:22         0.00      0.00      0.00      0.00      0.00
+
+08:09:21    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:22    170754984 182055152  25846940     13.15     52704  12140248  26397488     13.43  13454020  10534704    219456
+
+08:09:22        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:23        all      8.24      0.00      0.98      0.00      0.00     90.77
+
+08:09:22          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:23         7.00      0.00      7.00      0.00    168.00
+
+08:09:22    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:23    170673248 182054592  25928676     13.19     52704  12216076  26397488     13.43  13454048  10612580    297244
+
+08:09:23        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:24        all      8.19      0.00      1.65      0.00      0.00     90.16
+
+08:09:23          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:24         0.00      0.00      0.00      0.00      0.00
+
+08:09:23    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:24    170410404 181898948  26191520     13.32     52704  12323292  26397488     13.43  13607648  10718980    403912
+
+08:09:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:25        all      8.43      0.00      4.96      0.00      0.00     86.61
+
+08:09:24          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:25         4.00      0.00      4.00      0.00    176.00
+
+08:09:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:25    170011420 181831908  26590504     13.53     52708  12651792  26397488     13.43  13669112  11047216    732984
+
+08:09:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:26        all      7.74      0.00      3.32      1.28      0.00     87.66
+
+08:09:25          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:26       999.00      0.00    999.00      0.00 509792.00
+
+08:09:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:26    169411996 181450116  27189928     13.83     52708  12865156  26428864     13.44  14045120  11260856    656280
+
+08:09:26        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:27        all      3.22      0.00      0.33      2.78      0.00     93.67
+
+08:09:26          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:27       971.00      0.00    971.00      0.00 492416.00
+
+08:09:26    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:27    169341640 181381596  27260284     13.87     52728  12865392  26428864     13.44  14113544  11262224    412660
+
+08:09:27        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:28        all      1.42      0.00      0.40      2.67      0.00     95.52
+
+08:09:27          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:28      1213.00      0.00   1213.00      0.00 491144.00
+
+08:09:27    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:28    169342024 181382044  27259900     13.87     52732  12865396  26428864     13.44  14113552  11262280    167076
+
+08:09:28        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:29        all      5.88      0.00      4.84      1.17      0.00     88.11
+
+08:09:28          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:29       920.00      0.00    920.00      0.00 404248.00
+
+08:09:28    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:29    169049868 181381028  27552056     14.01     52736  13155136  26462392     13.46  14113616  11550712    288876
+
+08:09:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:30        all      4.60      0.00      0.38      0.00      0.00     95.02
+
+08:09:29          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:30         0.00      0.00      0.00      0.00      0.00
+
+08:09:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:30    169046428 181384224  27555496     14.02     52736  13157712  26462392     13.46  14113612  11554008    292400
+
+08:09:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:31        all      2.92      0.00      0.31      1.06      0.00     95.70
+
+08:09:30          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:31      1127.00      0.00   1127.00      0.00 575824.00
+
+08:09:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:31    169046760 181384588  27555164     14.02     52736  13157712  26462392     13.46  14113612  11554040        92
+
+08:09:31        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:32        all      2.48      0.00      0.17      0.02      0.00     97.33
+
+08:09:31          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:32        22.00      0.00     22.00      0.00   9304.00
+
+08:09:31    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:32    169046888 181384780  27555036     14.02     52740  13157712  26462392     13.46  14113616  11554100       100
+
+08:09:32        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:33        all      2.29      0.00      0.56      0.27      0.00     96.87
+
+08:09:32          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:33       268.00      0.00    268.00      0.00 133736.00
+
+08:09:32    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:33    168980608 181384372  27621316     14.05     52748  13226664  26462392     13.46  14115664  11619284         0
+
+08:09:33        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:34        all      3.00      0.00      8.37      0.00      0.00     88.63
+
+08:09:33          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:34         6.00      0.00      6.00      0.00     24.00
+
+08:09:33    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:34    168705132 181376732  27896792     14.19     52748  13484996  26462392     13.46  14121816  11879572    389824
+
+08:09:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:35        all      5.26      0.00      0.50      0.00      0.00     94.24
+
+08:09:34          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:35         2.00      0.00      2.00      0.00      8.00
+
+08:09:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:35    168701644 181375832  27900280     14.19     52748  13485064  26462392     13.46  14123928  11881228    392740
+
+08:09:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:36        all      4.62      0.00      1.05      1.23      0.00     93.10
+
+08:09:35          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:36      1070.00      0.00   1070.00      0.00 543376.00
+
+08:09:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:36    168691172 181365636  27910752     14.20     52748  13485064  26454084     13.46  14131616  11881476     85972
+
+08:09:36        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:37        all      4.57      0.00      2.59      0.58      0.00     92.26
+
+08:09:36          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:37       663.00      0.00    663.00      0.00 316304.00
+
+08:09:36    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:37    168562884 181367652  28039040     14.26     52756  13614284  26454084     13.46  14130044  12009684     92196
+
+08:09:37        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:38        all      4.13      0.00      2.32      0.00      0.00     93.55
+
+08:09:37          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:38         9.00      0.00      9.00      0.00     56.00
+
+08:09:37    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:38    168423244 181367456  28178680     14.33     52756  13747644  26454084     13.46  14130000  12144332    226820
+
+08:09:38        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:39        all      4.86      0.00      7.11      0.00      0.00     88.04
+
+08:09:38          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:39         8.00      0.00      8.00      0.00     32.00
+
+08:09:38    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:39    168055460 181364504  28546464     14.52     52756  14107192  26454084     13.46  14130040  12503880    586024
+
+08:09:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:40        all      4.49      0.00      0.81      0.00      0.00     94.70
+
+08:09:39          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:40        11.00      0.00     11.00      0.00     56.00
+
+08:09:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:40    168050628 181369780  28551296     14.52     52756  14112240  26454084     13.46  14130056  12508584    591076
+
+08:09:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:41        all      3.80      0.00      1.04      1.36      0.00     93.80
+
+08:09:40          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:41      1058.00      0.00   1058.00      0.00 536400.00
+
+08:09:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:41    168003832 181371368  28598092     14.55     52756  14161336  26454084     13.46  14130004  12556656    330884
+
+08:09:41        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:42        all      3.24      0.00      3.22      1.71      0.00     91.82
+
+08:09:41          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:42      1489.00      0.00   1489.00      0.00 743576.00
+
+08:09:41    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:42    167848912 181370324  28753012     14.62     52768  14309756  26454084     13.46  14130052  12705616    148556
+
+08:09:42        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:43        all      2.63      0.00      0.15      0.00      0.00     97.22
+
+08:09:42          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:43        61.00      0.00     61.00      0.00    384.00
+
+08:09:42    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:43    167848372 181370624  28753552     14.63     52772  14309892  26454084     13.46  14130080  12706280    149164
+
+08:09:43        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:44        all      0.31      0.00      0.10      0.00      0.00     99.58
+
+08:09:43          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:44         2.00      0.00      2.00      0.00      8.00
+
+08:09:43    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:44    167848372 181370656  28753552     14.63     52772  14309892  26454084     13.46  14130068  12706312    149144
+
+08:09:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:45        all      1.65      0.00      0.40      0.00      0.00     97.96
+
+08:09:44          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:45        10.00      0.00     10.00      0.00    128.00
+
+08:09:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:45    167847796 181370188  28754128     14.63     52784  14309892  26454084     13.46  14131584  12704852    149160
+
+08:09:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:46        all      4.92      0.00      0.19      0.00      0.00     94.89
+
+08:09:45          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:46         0.00      0.00      0.00      0.00      0.00
+
+08:09:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:46    167846336 181368748  28755588     14.63     52784  14309892  26454084     13.46  14131840  12704536    149160
+
+08:09:46        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:47        all      2.57      0.00      0.25      0.54      0.00     96.64
+
+08:09:46          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:47       586.00      0.00    586.00      0.00 297432.00
+
+08:09:46    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:47    167841092 181363840  28760832     14.63     52792  14309924  26466768     13.46  14132836  12704608       832
+
+08:09:47        CPU     %user     %nice   %system   %iowait    %steal     %idle
+08:09:48        all      5.17      0.00     10.14      0.00      0.00     84.69
+
+08:09:47          tps      rtps      wtps   bread/s   bwrtn/s
+08:09:48         0.00      0.00      0.00      0.00      0.00
+
+08:09:47    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+08:09:48    167372024 181364488  29229900     14.87     52792  14770728  26466768     13.46  14132220  13164088    460652
+
+
+Average:        CPU     %user     %nice   %system   %iowait    %steal     %idle
+Average:        all      5.11      0.00      1.12      0.24      0.00     93.53
+
+Average:          tps      rtps      wtps   bread/s   bwrtn/s
+Average:       196.00      0.12    195.88      1.76  90510.71
+
+Average:    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+Average:    171472684 182960864  25129240     12.78     52634  12318495  26359586     13.41  12548979  10715176    133020

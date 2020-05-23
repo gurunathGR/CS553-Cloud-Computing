@@ -1,0 +1,8 @@
+
+#CONNECT TO SERVER
+ping 129.114.108.207
+ssh -i ~/.ssh/hw5.pem cc@129.114.108.207
+
+#RESULTS
+tar -czvf results.tar.gz ../results
+scp -i ~/.ssh/hw5.pem cc@129.114.108.207:~/team-9/hw5/build/results.tar.gz ./results.tar.gz

@@ -1,0 +1,359 @@
+
+########Get Quemu and KVM
+sudo apt update && sudo apt upgrade
+sudo apt install qemu-kvm libvirt-bin virtinst cloud-utils
+
+sudo apt-get autoremove --purge qemu-kvm libvirt-bin virtinst cloud-utils
+sudo reboot
+
+########Download ubuntu
+wget https://cloud-images.ubuntu.com/bionic/current/bionic-server-cloudimg-amd64.img
+wget https://downloads.apache.org/hadoop/common/hadoop-3.2.1/hadoop-3.2.1.tar.gz
+wget https://archive.apache.org/dist/spark/spark-3.0.0-preview2/spark-3.0.0-preview2-bin-hadoop3.2.tgz
+
+########Check cloud image and resize (set to be the size of the VM)
+sudo mkdir -p /var/lib/libvirt/images
+#sudo qemu-img resize bionic-server-cloudimg-amd64.img 50G
+#sudo qemu-img info bionic-server-cloudimg-amd64.img
+
+########Convert cloud image to qcow2
+sudo mkdir -p /var/lib/libvirt/images
+sudo qemu-img convert -f qcow2 bionic-server-cloudimg-amd64.img /var/lib/libvirt/images/team9-namenode.img
+sudo qemu-img resize /var/lib/libvirt/images/team9-namenode.img 16G
+sudo qemu-img convert -f qcow2 bionic-server-cloudimg-amd64.img /var/lib/libvirt/images/team9-datanode1.img
+sudo qemu-img resize /var/lib/libvirt/images/team9-datanode1.img 40G
+sudo qemu-img convert -f qcow2 bionic-server-cloudimg-amd64.img /var/lib/libvirt/images/team9-datanode2.img
+sudo qemu-img resize /var/lib/libvirt/images/team9-datanode2.img 40G
+sudo qemu-img convert -f qcow2 bionic-server-cloudimg-amd64.img /var/lib/libvirt/images/team9-datanode3.img
+sudo qemu-img resize /var/lib/libvirt/images/team9-datanode3.img 40G
+sudo qemu-img convert -f qcow2 bionic-server-cloudimg-amd64.img /var/lib/libvirt/images/team9-datanode4.img
+sudo qemu-img resize /var/lib/libvirt/images/team9-datanode4.img 40G
+
+########Create cloud config for each VM
+nano team9-namenode.txt
+------------------------------------
+#cloud-config
+password: team9
+chpasswd: { expire: False }
+ssh_pwauth: True
+hostname: team9-namenode
+-------------------------------------
+
+nano team9-datanode1.txt
+------------------------------------
+#cloud-config
+password: team9
+chpasswd: { expire: False }
+ssh_pwauth: True
+hostname: team9-datanode1
+-------------------------------------
+
+nano team9-datanode2.txt
+------------------------------------
+#cloud-config
+password: team9
+chpasswd: { expire: False }
+ssh_pwauth: True
+hostname: team9-datanode2
+-------------------------------------
+
+nano team9-datanode3.txt
+------------------------------------
+#cloud-config
+password: team9
+chpasswd: { expire: False }
+ssh_pwauth: True
+hostname: team9-datanode3
+-------------------------------------
+
+nano team9-datanode4.txt
+------------------------------------
+#cloud-config
+password: team9
+chpasswd: { expire: False }
+ssh_pwauth: True
+hostname: team9-datanode4
+-------------------------------------
+
+########Generate config iso for each VM
+sudo cloud-localds /var/lib/libvirt/images/team9-namenode.iso team9-namenode.txt
+sudo cloud-localds /var/lib/libvirt/images/team9-datanode1.iso team9-datanode1.txt
+sudo cloud-localds /var/lib/libvirt/images/team9-datanode2.iso team9-datanode2.txt
+sudo cloud-localds /var/lib/libvirt/images/team9-datanode3.iso team9-datanode3.txt
+sudo cloud-localds /var/lib/libvirt/images/team9-datanode4.iso team9-datanode4.txt
+
+########Deploy each cloud image as a VM (15G NN, 4x 50G DN)
+##ctl-shift-] to exit console
+#Use 'ubuntu' as username and 'team9' as password
+
+sudo virt-install --name team9-namenode --ram 16000 --vcpus 4 --disk \
+/var/lib/libvirt/images/team9-namenode.img,device=disk,bus=virtio --disk \
+/var/lib/libvirt/images/team9-namenode.iso,device=cdrom --os-type linux \
+--os-variant ubuntu18.04 --virt-type kvm --graphics none \
+--network network=default,model=virtio --import
+
+sudo dhclient ens2
+ip addr show | grep inet
+
+sudo virt-install --name team9-datanode1 --ram 8192 --vcpus 4 --disk \
+/var/lib/libvirt/images/team9-datanode1.img,device=disk,bus=virtio --disk \
+/var/lib/libvirt/images/team9-datanode1.iso,device=cdrom --os-type linux \
+--os-variant ubuntu18.04 --virt-type kvm --graphics none \
+--network network=default,model=virtio --import
+
+sudo dhclient ens2
+ip addr show | grep inet
+
+sudo virt-install --name team9-datanode2 --ram 8192 --vcpus 4 --disk \
+/var/lib/libvirt/images/team9-datanode2.img,device=disk,bus=virtio --disk \
+/var/lib/libvirt/images/team9-datanode2.iso,device=cdrom --os-type linux \
+--os-variant ubuntu18.04 --virt-type kvm --graphics none \
+--network network=default,model=virtio --import
+
+sudo dhclient ens2
+ip addr show | grep inet
+
+sudo virt-install --name team9-datanode3 --ram 8192 --vcpus 4 --disk \
+/var/lib/libvirt/images/team9-datanode3.img,device=disk,bus=virtio --disk \
+/var/lib/libvirt/images/team9-datanode3.iso,device=cdrom --os-type linux \
+--os-variant ubuntu18.04 --virt-type kvm --graphics none \
+--network network=default,model=virtio --import
+
+sudo dhclient ens2
+ip addr show | grep inet
+
+sudo virt-install --name team9-datanode4 --ram 8192 --vcpus 4 --disk \
+/var/lib/libvirt/images/team9-datanode4.img,device=disk,bus=virtio --disk \
+/var/lib/libvirt/images/team9-datanode4.iso,device=cdrom --os-type linux \
+--os-variant ubuntu18.04 --virt-type kvm --graphics none \
+--network network=default,model=virtio --import
+
+sudo dhclient ens2
+ip addr show | grep inet
+
+########SET IPS
+
+#REPLACE ALL OCCURRENCES OF THESE TOKENS IN THIS DOCUMENT
+
+NAMENODE_IP = 192.168.123.64
+DATANODE1_IP = 192.168.123.212
+DATANODE2_IP = 192.168.123.155
+DATANODE3_IP = 192.168.123.89
+DATANODE4_IP = 192.168.123.214
+
+NAMENODE_IP = 192.168.123.64
+DATANODE1_IP = 192.168.123.212
+DATANODE2_IP = 192.168.123.155
+DATANODE3_IP = 192.168.123.89
+DATANODE4_IP = 192.168.123.214
+
+########Setup NFS server on host
+
+ip addr show | grep 192
+IP_ADDR = 192.168.123.1
+
+sudo apt update && sudo apt upgrade
+sudo apt install nfs-kernel-server
+sudo nano /etc/idmapd.conf 
+	#Uncomment line 6
+sudo mkdir -p /exports/projects
+sudo chown cc:wheel /exports/projects
+sudo nano /etc/exports 
+	#/exports/projects 192.168.123.0/24(rw,no_root_squash)
+sudo systemctl restart nfs-server.service
+sudo systemctl status nfs-server.service
+
+########Setup NFS server on NameNodes and DataNodes
+
+ssh ubuntu@192.168.123.64
+ssh ubuntu@192.168.123.212
+ssh ubuntu@192.168.123.155
+ssh ubuntu@192.168.123.89
+ssh ubuntu@192.168.123.214
+
+sudo apt update && sudo apt upgrade && sudo apt-get install cmake sysstat build-essential libz-dev nfs-common
+sudo nano /etc/idmapd.conf 
+	#Uncomment line 6
+sudo mkdir -p /exports/projects
+sudo nano /etc/fstab 
+	#192.168.123.1:/exports/projects /exports/projects nfs defaults 0 0
+sudo mount -t nfs 192.168.123.1:/exports/projects /exports/projects
+sudo df -hT
+
+########INSTALL JAVA
+sudo apt install openjdk-8-jdk
+
+########SETUP SSH on NAMENODE
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+nano ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+chmod 700 ~/.ssh
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDW+DduZQybae0xcUEdCNHZ8m4rnb84eHqqnA1izpB078WDgeAbfDXjUKx8p5C6HIBcm4dHBrR+Skt7mhwdT586uV79DvuYJl7YI5D0rd+/eLCik7jSC62lfHRRHFDfUVB5XB2YL9broKS7m4Ck5g8S0PFOrW4FLxo9sDoRgjBM5t2q09ijV70F5345L3XW9oN545FFx5410+FEOQSxFa4V5RJwsh3WWwGYFGrB/77UxeIhZ8Wzi/s1+W/XRgK6cTcwz8aVuT+oiwQH96wU4AdKMEAeM93VkeCvlxjH9jyjZMRA5h8Ycm2MzX++z7Zsfpqi9N5KT4VeFyzoVwJR5PMH ubuntu@team9-namenode
+
+#########SET ENV
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/
+export HADOOP_HOME=/exports/projects/hadoop-3.2.1/
+export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
+export HADOOP_CONF_DIR=${HADOOP_HOME}/etc/hadoop
+export SPARK_HOME=/exports/projects/spark-3.0.0-preview2-bin-hadoop3.2/
+export PATH=${JAVA_HOME}/bin:${PATH}
+
+##########GET HADDOOP
+cp hadoop-3.2.1.tar.gz /exports/projects/
+cd /exports/projects
+tar xzvf hadoop-3.2.1.tar.gz
+cd hadoop-3.2.1
+nano  ${HADOOP_HOME}/etc/hadoop/hadoop-env.sh
+
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/
+export HADOOP_HOME=/exports/projects/hadoop-3.2.1/
+
+#########Configure HADOOP
+#IN THE NAMENODE
+nano ${HADOOP_HOME}/etc/hadoop/core-site.xml
+
+<configuration>
+	<property>
+		<name>fs.defaultFS</name>
+		<value>hdfs://192.168.123.64:9000</value>
+	</property>
+	<property>
+		<name>io.file.buffer.size</name>
+		<value>131072</value>
+	</property>
+</configuration>
+
+nano ${HADOOP_HOME}/etc/hadoop/hdfs-site.xml
+
+<configuration>
+	<property>
+		<name>dfs.replication</name>
+		<value>1</value>
+	</property>
+	<property>
+		<name>dfs.namenode.name.dir</name>
+		<value>/home/ubuntu/hdfs-metadata</value>
+	</property>
+	<property>
+		<name>dfs.blocksize</name>
+		<value>67108864</value>
+	</property>
+	<property>
+		<name>dfs.namenode.handler.count</name>
+		<value>100</value>
+	</property>
+	<property>
+		<name>dfs.datanode.data.dir</name>
+		<value>/home/ubuntu/hdfs-data</value>
+	</property>
+</configuration>
+
+nano ${HADOOP_HOME}/etc/hadoop/yarn-site.xml
+
+<configuration>
+	<property>
+		<name>yarn.nodemanager.aux-services</name>
+		<value>mapreduce_shuffle</value>
+	</property>
+	<property>
+		<name>yarn.resourcemanager.hostname</name>
+		<value>192.168.123.64</value>
+	</property>
+	<property>
+		<name>yarn.nodemanager.log-dirs</name>
+		<value>/home/ubuntu/hdfs-logs</value>
+	</property>
+	<property>
+		<name>yarn.nodemanager.resource.memory-mb</name>
+		<value>6000</value>
+	</property>
+	<property>
+		<name>yarn.scheduler.maximum-allocation-mb</name>
+		<value>3000</value>
+	</property>
+</configuration>
+
+nano ${HADOOP_HOME}/etc/hadoop/mapred-site.xml
+
+<configuration>
+	<property>
+		<name>mapreduce.framework.name</name>
+		<value>yarn</value>
+	</property>
+	<property>
+		<name>mapreduce.jobhistory.address</name>
+		<value>192.168.123.64:10020</value>
+	</property>
+	<property>
+		<name>mapreduce.jobhistory.webapp.address</name>
+		<value>192.168.123.64:19888</value>
+	</property>
+	<property>
+		<name>yarn.app.mapreduce.am.env</name>
+		<value>HADOOP_MAPRED_HOME=/exports/projects/hadoop-3.2.1/</value>
+	</property>
+	<property>
+		<name>mapreduce.map.env</name>
+		<value>HADOOP_MAPRED_HOME=/exports/projects/hadoop-3.2.1/</value>
+	</property>
+	<property>
+		<name>mapreduce.reduce.env</name>
+		<value>HADOOP_MAPRED_HOME=/exports/projects/hadoop-3.2.1/</value>
+	</property>
+	<property>
+		<name>mapreduce.cluster.local.dir</name>
+		<value>/tmp</value>
+	</property>
+</configuration>
+
+nano ${HADOOP_HOME}/etc/hadoop/workers
+
+192.168.123.212
+192.168.123.155
+192.168.123.89
+192.168.123.214
+
+#For each node
+sudo nano /etc/hosts
+
+127.0.0.1 localhost
+192.168.123.64 team9-namenode.local team9-namenode
+192.168.123.212 team9-datanode1.local team9-datanode1
+192.168.123.155 team9-datanode2.local team9-datanode2
+192.168.123.89 team9-datanode3.local team9-datanode3
+192.168.123.214 team9-datanode4.local team9-datanode4
+
+mkdir /home/ubuntu/hdfs-metadata #IN THE NAMENODE
+mkdir /home/ubuntu/hdfs-logs #IN ALL NODES
+mkdir /home/ubuntu/hdfs-data #IN THE DATANODES
+
+#########FORMAT AND START HDFS (NAMENODE)
+
+${HADOOP_HOME}/bin/hdfs namenode -format team9
+${HADOOP_HOME}/sbin/start-dfs.sh
+${HADOOP_HOME}/sbin/start-yarn.sh
+${HADOOP_HOME}/bin/mapred --daemon start historyserver
+${HADOOP_HOME}/bin/hdfs dfsadmin -report
+${HADOOP_HOME}/bin/yarn application -list
+
+#########INITIATE SPARK
+cp ~/spark-3.0.0-preview2-bin-hadoop3.2.tgz /exports/projects/.
+cd /exports/projects
+tar xvf spark-3.0.0-preview2-bin-hadoop3.2.tgz
+cd spark-3.0.0-preview2-bin-hadoop3.2 
+cp ${SPARK_HOME}/conf/spark-env.sh.template conf/spark-env.sh
+nano ${SPARK_HOME}/conf/spark-env.sh
+mkdir /exports/projects/sparkstaging
+cp ${SPARK_HOME}/conf/spark-defaults.conf.template ${SPARK_HOME}/conf/spark-defaults.conf
+
+##########SET SPARK CONFIGURATION
+nano ${SPARK_HOME}/conf/spark-defaults.conf
+
+sudo nano /etc/profile.d/hadoop.sh
+export HADOOP_HOME=/exports/projects/hadoop-3.2.1/
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/
+export SPARK_HOME=/exports/projects/spark-3.0.0-preview2-bin-hadoop3.2/
+
+

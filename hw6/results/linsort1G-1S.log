@@ -1,0 +1,14 @@
+First unordered record is record 2
+Records: 10000000
+Checksum: 4c48a881c779d5
+ERROR - there are 5000808 unordered records
+Sun May  3 06:49:07 UTC 2020
+
+real	0m8.532s
+user	0m15.152s
+sys	0m3.122s
+Sun May  3 06:49:16 UTC 2020
+Records: 10000000
+Checksum: 4c48a881c779d5
+Duplicate keys: 0
+SUCCESS - all records are in order

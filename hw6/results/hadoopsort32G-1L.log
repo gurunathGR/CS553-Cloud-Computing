@@ -1,0 +1,12 @@
+/home/ubuntu/temp/vs_sum.sum: No such file or directory
+Sun May  3 05:44:57 UTC 2020
+
+real	13m53.999s
+user	0m8.890s
+sys	0m1.305s
+Sun May  3 05:58:51 UTC 2020
+Records: 320000000
+Checksum: 9895c22cc452246
+Duplicate keys: 0
+SUCCESS - all records are in order
+

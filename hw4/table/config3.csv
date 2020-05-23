@@ -1,0 +1,10 @@
+,Description,Price Per Item,Quantity,Total
+Compute Servers,Perform processing operations,"$80,698.00","17,858.00","$1,441,104,884.00"
+Network Switches,Route information sent over the network,"$6,200.00","1,980.00","$12,276,000.00"
+Network Cables,Cables that connect connect computers/switches to each other,$78.00,"95,040.00","$7,413,120.00"
+Racks,Cabinets that hold the server racks,$992.99,898.00,"$891,515.88"
+Storage Servers,The servers that are meant for permanent mass storage,"$24,351.00",3.00,"$73,053.00"
+Electric Power,Energy cost of server hardware,$0.0830/kwh,"1,806,927,587.1000 kwh","$149,974,989.73"
+Cooling,Energy cost of AC,$0.0830/kwh,"1,806,930,007.0597 kwh","$149,975,190.59"
+Administration,Those who manage the server.,"$59,323.00",18.00,"$1,059,568.10"
+Total,,,,"$1,762,768,120.44"

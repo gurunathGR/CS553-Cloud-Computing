@@ -1,0 +1,10 @@
+Sat May  2 23:32:25 UTC 2020
+
+real	0m26.966s
+user	1m18.500s
+sys	0m11.410s
+Sat May  2 23:32:52 UTC 2020
+Records: 40000000
+Checksum: 1312774ebf75c93
+Duplicate keys: 0
+SUCCESS - all records are in order

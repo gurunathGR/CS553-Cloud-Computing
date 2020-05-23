@@ -1,0 +1,8 @@
+
+#CONNECT TO SERVER
+ping 129.114.108.70	
+ssh -i ~/.ssh/id_rsa cc@129.114.108.70	
+
+#RESULTS
+tar -czvf results.tar.gz ../results
+scp -i ~/.ssh/id_rsa cc@129.114.108.70:~/team-9/hw3/build/results.tar.gz ./results.tar.gz
